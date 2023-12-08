@@ -42,7 +42,7 @@ public class RDSConnect {
     private static final String KEY_STORE_PROVIDER = "SUN";
     private static final String KEY_STORE_FILE_PREFIX = "sys-connect-via-ssl-test-cacerts";
     private static final String KEY_STORE_FILE_SUFFIX = ".jks";
-    private static final String DEFAULT_KEY_STORE_PASSWORD = "470#CloudComputing";
+    private static final String DEFAULT_KEY_STORE_PASSWORD = "Tu#07042000";
 
     public static void main(String[] args) throws Exception {
         //get the connection
