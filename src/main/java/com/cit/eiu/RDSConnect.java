@@ -24,9 +24,13 @@ import java.net.URL;
 
 public class RDSConnect {
     //&AWS; Credentials of the IAM user with policy enabling IAM Database Authenticated access to the db by the db user.
-    private static final DefaultAWSCredentialsProviderChain creds = new DefaultAWSCredentialsProviderChain();
-    private static final String AWS_ACCESS_KEY = creds.getCredentials().getAWSAccessKeyId();
-    private static final String AWS_SECRET_KEY = creds.getCredentials().getAWSSecretKey();
+    
+    // private static final DefaultAWSCredentialsProviderChain creds = new DefaultAWSCredentialsProviderChain();
+    // private static final String AWS_ACCESS_KEY = creds.getCredentials().getAWSAccessKeyId();
+    // private static final String AWS_SECRET_KEY = creds.getCredentials().getAWSSecretKey();
+    
+    private static final String AWS_ACCESS_KEY = "AKIAQA3PTVGENEXUL3RH";
+    private static final String AWS_SECRET_KEY = "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";
 
     //Configuration parameters for the generation of the IAM Database Authentication token
     private static final String RDS_INSTANCE_HOSTNAME = "cse470db.cdgzhcum4cno.ap-southeast-2.rds.amazonaws.com";
@@ -41,7 +45,7 @@ public class RDSConnect {
     private static final String KEY_STORE_PROVIDER = "SUN";
     private static final String KEY_STORE_FILE_PREFIX = "sys-connect-via-ssl-test-cacerts";
     private static final String KEY_STORE_FILE_SUFFIX = ".jks";
-    private static final String DEFAULT_KEY_STORE_PASSWORD = "Tu@07042000";
+    private static final String DEFAULT_KEY_STORE_PASSWORD = "470#CloudComputing";
 
     public static void main(String[] args) throws Exception {
         //get the connection
