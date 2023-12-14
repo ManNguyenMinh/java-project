@@ -1,6 +1,0 @@
-com\cit\eiu\S3Connect.class
-com\cit\eiu\DBConnect.class
-com\cit\eiu\RDSConnect.class
-com\cit\eiu\IAMDatabaseAuthenticationTester.class
-com\cit\eiu\App.class
-com\cit\eiu\TestRDBConnectRole.class
